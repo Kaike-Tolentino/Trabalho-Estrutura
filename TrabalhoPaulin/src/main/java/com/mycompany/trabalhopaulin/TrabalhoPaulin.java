@@ -28,6 +28,7 @@ public class TrabalhoPaulin {
                 case 2:
                     for (int i = 0; i < tamanho; i++) {
                         v[i] = random.nextInt(999);
+                       
                     }
                     break;
                 default:
@@ -37,7 +38,7 @@ public class TrabalhoPaulin {
 
             int[] vInicial = v.clone();
 
-            int forma_ordenacao = Integer.parseInt(JOptionPane.showInputDialog("Escolha a forma de ordenação:\n 1-Inserção\n2-Seleção\n3-Bolha"));
+            int forma_ordenacao = Integer.parseInt(JOptionPane.showInputDialog("Escolha o método de ordenação:\n 1-Inserção\n2-Seleção\n3-Bolha"));
             switch (forma_ordenacao) {
                 case 1:
                     Insercao.Insercao(v);
