@@ -1,14 +1,11 @@
-Feito um programa em Java que permita ao usuário criar um vetor com um tamanho específico e preencher com números manualmente ou preencher de maneira aleatória. Em seguida, o programa permite que o usuário escolha um método de ordenação (inserção, seleção ou ordenação de bolha) para ordenar o vetor. Depois de ordenar o vetor, o programa exibe o vetor original e o vetor ordenado. Além disso, o programa mostra o tempo de execução do algoritmo de ordenação selecionado. É possível estar visualizando a diferença de desempenho através de vetores com tamanho [1000], nele ao testar os 3 métodos de ordenação já é visível a diferença de performance.
+									MÉTODOS DE ORDENAÇÃO
 
-O programa utiliza classes externas, como Bolha, Insercao e Selecao, que contêm os métodos de ordenação para ordenar o vetor.
 
-No início do programa, o usuário é solicitado a inserir o tamanho do vetor e a escolher a forma como o vetor deve ser preenchido. A entrada do usuário é validada para garantir que ele selecione uma opção válida. Se a entrada for inválida, o programa exibirá uma mensagem de erro e solicitará ao usuário que tente novamente.
-
+	Criado um programa em Java que permita ao usuário criar um vetor com um tamanho específico e preencher com números manualmente ou preencher de maneira aleatória. Em seguida, o programa permite que o usuário escolha um método de ordenação (inserção, seleção ou ordenação de bolha) para ordenar o vetor. Depois de ordenar o vetor, o programa exibe o vetor original e o vetor ordenado. Além disso, o programa mostra o tempo de execução do algoritmo de ordenação selecionado. É possível estar visualizando a diferença de desempenho através de vetores com tamanho [1000], nele ao testar os 3 métodos de ordenação já é visível a diferença de performance.
+	O programa utiliza classes externas, como Bolha, Insercao e Selecao, que contêm os métodos de ordenação para ordenar o vetor. No início do programa, o usuário é solicitado a inserir o tamanho do vetor e a escolher a forma como o vetor deve ser preenchido. A entrada do usuário é validada para garantir que ele selecione uma opção válida. Se a entrada for inválida, o programa exibirá uma mensagem de erro e solicitará ao usuário que tente novamente.
 Em seguida, o usuário é solicitado a escolher um método de ordenação. O programa valida novamente a entrada do usuário e, se a entrada for inválida, exibirá uma mensagem de erro e solicitará ao usuário que tente novamente.
-
 Depois que o vetor é ordenado, o programa exibe o vetor original e o vetor ordenado usando caixas de diálogo do JOptionPane. Em seguida, o programa exibe o tempo de execução do algoritmo de ordenação selecionado.
-
-O programa contém um loop while que permite ao usuário executá-lo várias vezes. O usuário é solicitado a selecionar se deseja continuar ou não efetuando procedimentos no final de cada execução.
+	O programa contém um loop while que permite ao usuário executá-lo várias vezes. O usuário é solicitado a selecionar se deseja continuar ou não efetuando procedimentos no final de cada execução.
 
 Kaike Breno Tolenitno 00239502
 Samuel de Souza Faller 00239620
