@@ -1,0 +1,13 @@
+Fiz um programa em Java que permite ao usuário criar um vetor com um tamanho específico e preencher com números manualmente ou gerados aleatoriamente. Em seguida, o programa permite que o usuário escolha um algoritmo de ordenação (inserção, seleção ou ordenação de bolha) para classificar o vetor. Depois de classificar o vetor, o programa exibe o vetor original e o vetor classificado. Além disso, o programa mostra o tempo de execução do algoritmo de ordenação selecionado.
+
+O programa utiliza classes externas, como Bolha, Insercao e Selecao, que contêm os métodos de ordenação para classificar o vetor.
+
+No início do programa, o usuário é solicitado a inserir o tamanho do vetor e a escolher a forma como o vetor deve ser preenchido. A entrada do usuário é validada para garantir que ele selecione uma opção válida. Se a entrada for inválida, o programa exibirá uma mensagem de erro e solicitará ao usuário que tente novamente.
+
+Em seguida, o usuário é solicitado a escolher um algoritmo de ordenação. O programa valida novamente a entrada do usuário e, se a entrada for inválida, exibirá uma mensagem de erro e solicitará ao usuário que tente novamente.
+
+Depois que o vetor é classificado, o programa exibe o vetor original e o vetor classificado usando caixas de diálogo do JOptionPane. Em seguida, o programa exibe o tempo de execução do algoritmo de ordenação selecionado.
+
+O programa contém um loop while que permite ao usuário executá-lo várias vezes. O usuário é solicitado a selecionar se deseja continuar ou não no final de cada execução.
+
+Kaike Breno Tolenitno 00239502
